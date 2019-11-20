@@ -1,0 +1,46 @@
+#background {
+  margin: 0;
+  padding: 0;
+  /* animation : background .5s fade-in; */
+  transition: .5s ease-in-out;
+   background-color: #B255B0; 
+}
+
+.quoteText {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+
+.quoteAuthor {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;  
+}
+
+.portfolioBar {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  background-color: orange;
+  align-items: center;
+}
+
+.fa {
+  color:white;
+  text-decoration: none;
+  margin-left: 80px;
+}
+
+.fa:hover {
+  color: black;
+}
+
+
+
+.opacity0 {
+  opacity: 0;
+}
+
+
+
+

@@ -1,0 +1,36 @@
+{
+  "name": "quote-machine",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.16.4",
+    "font-awesome": "^4.7.0",
+    "massive": "^4.5.0",
+    "mongodb": "^2.2.33",
+    "particles.js": "^2.0.0",
+    "path": "^0.12.7",
+    "radium": "^0.19.4",
+    "react": "^15.6.1",
+    "react-animations": "^0.1.0",
+    "react-dom": "^15.6.1",
+    "react-fontawesome": "^1.6.1",
+    "react-motion": "^0.5.2",
+    "react-particles-js": "^2.1.0",
+    "react-scripts": "1.0.13"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1"
+  },
+  "proxy": "http://localhost:8080",
+  "scripts": {
+    "start": "react-scripts start",
+    "client": "react-scripts start",
+    "server": "nodemon ./quote-api/server.js",
+    "heroku-postbuild": "npm run build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "dev": "concurrently --kill-others-on-fail \"npm run-script server\" \"npm run-script client\""
+  }
+}
