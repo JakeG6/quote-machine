@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
 });
 
 //Mongoose stuff
-mongoose.connect('mongodb+srv://quotedb-admin:itiacswita@quotedb-rueqe.mongodb.net/', {dbName: 'quoteDatabase'});
+mongoose.connect('mongodb+srv://quotedb-admin:itiacswita@quotedb-rueqe.mongodb.net/', {dbName: 'quoteDatabase', useNewUrlParser: true}, );
 const dbConnection = mongoose.connection;
 const db = dbConnection.db;
 dbConnection.on('error', console.error.bind(console, 'connection error:'));
