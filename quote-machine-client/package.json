@@ -7,7 +7,7 @@
     "express": "^4.16.4",
     "font-awesome": "^4.7.0",
     "massive": "^4.5.0",
-    "mongodb": "^2.2.33",
+    "mongodb": "^3.1.13",
     "particles.js": "^2.0.0",
     "path": "^0.12.7",
     "radium": "^0.19.4",
