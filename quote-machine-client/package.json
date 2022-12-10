@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.21.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "font-awesome": "^4.7.0",
     "massive": "^4.5.0",
     "mongodb": "^3.1.13",
